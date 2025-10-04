@@ -2,37 +2,6 @@
 
 ApproveIt is a **full-stack expense submission and approval system** with built-in authentication, role-based access control, real-time currency conversion, and OCR-powered receipt scanning.  
 
----
-
-## 📂 Project Structure
-
-ApproveIt/
-├── 📁 public/ # Static assets
-├── 📁 src/ # Frontend (React + Vite)
-│ ├── 📁 components/ # Reusable UI components
-│ │ ├── FileUpload.jsx # Drag & drop file upload
-│ │ ├── Navbar.jsx # Navigation bar
-│ │ └── ProtectedRoute.jsx # Route protection
-│ ├── 📁 context/ # React Context providers
-│ │ ├── AuthContext.jsx # Authentication context
-│ │ └── CurrencyContext.jsx # Currency management
-│ ├── 📁 pages/ # Page components
-│ │ ├── Dashboard.jsx
-│ │ ├── ExpenseSubmission.jsx
-│ │ ├── ApprovalWorkflow.jsx
-│ │ ├── Login.jsx
-│ │ └── Register.jsx
-│ └── 📁 utils/ # Utility functions
-├── 📁 server/ # Backend (Node.js + Express + MongoDB)
-│ ├── 📁 controllers/ # API controllers
-│ ├── 📁 middleware/ # Custom middleware
-│ ├── 📁 models/ # MongoDB models
-│ ├── 📁 routes/ # REST API routes
-│ └── 📁 uploads/ # File uploads (gitignored)
-├── 📄 package.json # Dependencies
-├── 📄 vite.config.js # Vite config
-└── 📄 README.md # Project documentation
-
 
 ---
 
@@ -73,21 +42,6 @@ ApproveIt/
 
 ---
 
-## 📸 Screenshots
-
-🏠 **Dashboard**  
-<img alt="Dashboard" src="https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=Dashboard+Screenshot">
-
-💰 **Expense Submission**  
-<img alt="Expense Submission" src="https://via.placeholder.com/800x400/10B981/FFFFFF?text=Expense+Submission">
-
-✅ **Approval Workflow**  
-<img alt="Approval Workflow" src="https://via.placeholder.com/800x400/F59E0B/FFFFFF?text=Approval+Workflow">
-
-📊 **Analytics Dashboard**  
-<img alt="Analytics" src="https://via.placeholder.com/800x400/EF4444/FFFFFF?text=Analytics+Dashboard">
-
----
 
 ## ⚙️ Tech Stack
 
